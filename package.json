@@ -1,13 +1,31 @@
 {
   "name": "@open-artifact/api-types",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
   "scripts": {},
-  "keywords": [],
+  "keywords": [
+    "artifact",
+    "valve",
+    "api",
+    "card game",
+    "types"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "typescript": "^3.1.6"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottah/api-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ottah/api-types/issues"
+  },
+  "homepage": "https://github.com/ottah/api-types#readme",
+  "description": ""
 }
