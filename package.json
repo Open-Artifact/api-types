@@ -2,7 +2,11 @@
   "name": "@open-artifact/api-types",
   "version": "0.1.1",
   "main": "./lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "version": "npm run build && git add -A lib -f",
+    "postversion": "git push && git push --tags",
+    "build": "tsc"
+  },
   "keywords": [
     "artifact",
     "valve",
