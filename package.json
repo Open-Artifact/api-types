@@ -21,11 +21,11 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ottah/api-types.git"
+    "url": "git+https://github.com/Open-Artifact/api-types.git"
   },
   "bugs": {
-    "url": "https://github.com/ottah/api-types/issues"
+    "url": "https://github.com/Open-Artifact/api-types/issues"
   },
-  "homepage": "https://github.com/ottah/api-types#readme",
-  "description": ""
+  "homepage": "https://github.com/Open-Artifact/api-types#readme",
+  "description": "Helper types for dealing with the Artifact card API."
 }
