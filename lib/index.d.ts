@@ -1,42 +1,42 @@
-export interface IName {
+export interface Name {
     english: string;
 }
-export interface ISetInfo {
+export interface SetInfo {
     set_id: number;
     pack_item_def: number;
-    name: IName;
+    name: Name;
 }
-export interface ICardName {
+export interface CardName {
     english: string;
 }
-export interface ICardText {
+export interface CardText {
     english: string;
 }
-export interface IMiniImage {
+export interface MiniImage {
     default: string;
 }
-export interface ILargeImage {
+export interface LargeImage {
     default: string;
 }
-export interface IIngameImage {
+export interface IngameImage {
     default: string;
 }
-export interface IReference {
+export interface Reference {
     card_id: number;
     ref_type: string;
     count: number;
 }
-export interface ICard {
+export interface Card {
     card_id: number;
     base_card_id: number;
     card_type: string;
-    card_name: ICardName;
-    card_text: ICardText;
-    mini_image: IMiniImage;
-    large_image: ILargeImage;
-    ingame_image: IIngameImage;
+    card_name: CardName;
+    card_text: CardText;
+    mini_image: MiniImage;
+    large_image: LargeImage;
+    ingame_image: IngameImage;
     hit_points: number;
-    references: IReference[];
+    references: Reference[];
     illustrator: string;
     mana_cost?: number;
     attack?: number;
@@ -48,12 +48,12 @@ export interface ICard {
     armor?: number;
     is_blue?: boolean;
 }
-export interface ICardSet {
+export interface CardSet {
     version: number;
-    set_info: ISetInfo;
-    card_list: ICard[];
+    set_info: SetInfo;
+    card_list: Card[];
 }
-export interface ICardAPIObject {
-    card_set: ICardSet;
+export interface CardAPIObject {
+    card_set: CardSet;
 }
 //# sourceMappingURL=index.d.ts.map
