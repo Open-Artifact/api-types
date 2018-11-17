@@ -1,27 +1,14 @@
+import { LanguageOptionLargeImage, LanguageOptionText } from "./LanguageOptions";
 
-export interface Name {
-  english: string;
-}
+export * from "./LanguageOptions";
 
 export interface SetInfo {
   set_id: number;
   pack_item_def: number;
-  name: Name;
-}
-
-export interface CardName {
-  english: string;
-}
-
-export interface CardText {
-  english: string;
+  name: LanguageOptionText;
 }
 
 export interface MiniImage {
-  default: string;
-}
-
-export interface LargeImage {
   default: string;
 }
 
@@ -39,10 +26,10 @@ export interface Card {
   card_id: number;
   base_card_id: number;
   card_type: string;
-  card_name: CardName;
-  card_text: CardText;
+  card_name: LanguageOptionText;
+  card_text: LanguageOptionText;
   mini_image: MiniImage;
-  large_image: LargeImage;
+  large_image: LanguageOptionLargeImage;
   ingame_image: IngameImage;
   hit_points: number;
   references: Reference[];
