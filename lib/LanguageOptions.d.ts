@@ -1,10 +1,9 @@
-export declare class LanguageOptionText {
+export interface LanguageOptionText {
     english: string;
     german: string;
     french: string;
     italian: string;
-    korean?: string;
-    koreana?: string;
+    koreana: string;
     spanish: string;
     schinese: string;
     tchinese: string;
@@ -28,14 +27,12 @@ export declare class LanguageOptionText {
     ukrainian: string;
     latam: string;
     vietnamese: string;
-    constructor(model: LanguageOptionText);
 }
 export interface LanguageOptionLargeImage {
     default: string;
     german: string;
     french: string;
     italian: string;
-    korean: string;
     koreana: string;
     spanish: string;
     schinese: string;
