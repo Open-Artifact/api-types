@@ -1,0 +1,1 @@
+{"version":3,"file":"CardSet.d.ts","sourceRoot":"","sources":["../src/CardSet.ts"],"names":[],"mappings":"AAAA,OAAO,IAAI,MAAM,QAAQ,CAAC;AAC1B,OAAO,OAAO,MAAM,WAAW,CAAC;AAChC,MAAM,CAAC,OAAO,WAAW,OAAO;IAC9B,OAAO,EAAE,MAAM,CAAC;IAChB,QAAQ,EAAE,OAAO,CAAC;IAClB,SAAS,EAAE,IAAI,EAAE,CAAC;CACnB"}

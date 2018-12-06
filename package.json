@@ -1,6 +1,6 @@
 {
   "name": "@open-artifact/api-types",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "./lib/index.js",
   "scripts": {
     "version": "npm run build && git add -A lib -f",
